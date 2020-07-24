@@ -31,18 +31,18 @@ management:
         
         
         
-#---
-#spring:
-#  profiles: order1
-#  
-#  
-#server:
-#  port: 8201
-#  
-#  
-#---
-#spring:
-#  profiles: order2
-#  
-#server:
-#  port: 8202
+---
+spring:
+  profiles: order1
+  
+  
+server:
+  port: 8201
+  
+  
+---
+spring:
+  profiles: order2
+  
+server:
+  port: 8202
