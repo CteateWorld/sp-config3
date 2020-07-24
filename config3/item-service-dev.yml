@@ -5,9 +5,7 @@ spring:
   cloud:
     config:
       override-none: true 
-      
-    
-   
+         
 server:
   port: 8001      
 
